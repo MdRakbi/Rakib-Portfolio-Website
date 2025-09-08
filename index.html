@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rakib Hossain</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="rak.png">
+
+</head>
+<body>
+
+        <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-primary navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" id="Rakib" href="#"></a>
+      <!-- Logo + Name -->
+    <a class="navbar-brand d-flex" id="Rakib" href="#">
+      <!-- Logo Image -->
+      <img src="rak.png" alt="Logo" width="40" height="40" class="rounded-circle" style="margin-left: -45px;">
+      <!-- Website Name -->
+      <span>Rakib Hossain</span>
+    </a>
+
+      <!-- Desktop Menu (Visible on md and larger) -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#service">Service</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Mobile Button (Visible only on xs screens) -->
+      <button class="btn btn-outline-light d-md-none ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#rightSidebar">
+        ☰
+      </button>
+    </div>
+  </nav>
+
+  <!-- Right Sidebar -->
+  <div class="offcanvas offcanvas-end bg-light" id="rightSidebar">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">About</a>
+      <a href="#" class="nav-link">Skills</a>
+      <a href="#" class="nav-link">Portfolio</a>
+      <a href="#" class="nav-link">Service</a>
+      <a href="#" class="nav-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <img src="Rakib (2).png" class="rounded-circle" alt="Profile">
+      <h1 class="fw-bold">Hi, I'm <span class="text-primary">Rakib Hossain</span></h1>
+      <p class="lead">Web Developer | WordPress Specialist | Freelancer</p>
+      <a href="https://drive.google.com/file/d/13ZiP7bTQcbZ9bCNDRKk_8H4ov7-csgz1/view?usp=drive_link" class="btn btn-primary btn-lg mt-3" target="_blank">Hire Me</a>
+    </div>
+  </section>
+
+
+  <style>
+    #about h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #about h2::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+  </style>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="rak.png" class="img-fluid rounded shadow ms-5 mt-5 mb-3" alt="About" style="margin-left: -  50px;">
+        </div>
+        <div class="col-md-6 mt-5">
+          <h2>About Me</h2>
+          <p>I am a Passionate Web Developer Specializing in HTML5, CSS3, JavaScript, And CSS framework Bootstrap, Tailwind css, & JavaScript Framework React, Vue.js, And Version Control System (git & github) etc. and Modern web Technologies.I can Create Blog sites, Portfolio sites, E-commerce sites, Business Portfolios, All kinds. I Create Responsive and User-Friendly Websites with clean code and Creative Designs.</p>
+          <a href="https://drive.google.com/file/d/13ZiP7bTQcbZ9bCNDRKk_8H4ov7-csgz1/view?usp=drive_link" class="btn btn-outline-primary" target="_blank" >Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <style>
+    #skills {
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+      padding: 60px 20px;
+    }
+
+    #skills h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #skills h2::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    .skill-item {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 5px solid #0d6efd;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #0f172a;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      align-items: center;
+    }
+
+    .skill-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    .skill-number {
+      background: #0d6efd;
+      color: #fff;
+      font-weight: bold;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 576px) {
+      .skill-item {
+        font-size: 16px;
+        padding: 12px;
+      }
+      .skill-number {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+      }
+    }
+  </style>
+
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <h2>My Skills</h2>
+    <div class="row text-center">
+
+      <!-- Skill 1 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">1</div>
+          HTML5
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">2</div>
+          CSS3
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">3</div>
+          JavaScript
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">4</div>
+          Bootstrap
+        </div>
+      </div>
+
+      <!-- Skill 5 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">5</div>
+          Tailwind CSS
+        </div>
+      </div>
+
+      <!-- Skill 6 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">6</div>
+          React.js
+        </div>
+      </div>
+
+      <!-- Skill 7 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">7</div>
+          Vue.js
+        </div>
+      </div>
+
+      <!-- Skill 8 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">8</div>
+          Python
+        </div>
+      </div>
+
+      <!-- Skill 9 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">9</div>
+          WordPress
+        </div>
+      </div>
+
+      <!-- Skill 10 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">10</div>
+          Git & GitHub
+        </div>
+      </div>
+      <!-- Skill 11 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">11</div>
+          C
+        </div>
+      </div>
+      <!-- Skill 12 -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="skill-number">12</div>
+          C++
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Optional: a little reset for images -->
+  <style>
+    /* Container spacing */
+    #skill-logos {
+      padding: 6rem 1rem;
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    }
+
+    #skill-logos .section-title {
+      font-weight: 700;
+      letter-spacing: .5px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    /* Grid item */
+    .skill-card {
+      --size: 170px; /* base size, will scale with viewport */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem;
+      transition: transform .35s cubic-bezier(.2,.9,.3,1), box-shadow .35s;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+      cursor: default;
+      user-select: none;
+      min-height: calc(var(--size) + 40px);
+    }
+
+    /* Logo circle frame */
+    .logo-wrap {
+      width: clamp(80px, 12vw, var(--size));
+      height: clamp(80px, 12vw, var(--size));
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      transition: transform .45s cubic-bezier(.2,.9,.3,1);
+      box-shadow: 0 10px 30px rgba(13,110,253,0.08);
+      background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(250,250,255,0.6));
+      position: relative;
+      overflow: visible;
+    }
+
+    /* SVG sizing */
+    .logo-wrap img,
+    .logo-wrap svg {
+      width: 62%;
+      height: 62%;
+      display: block;
+    }
+
+    /* label under logo for accessibility / name */
+    .skill-label {
+      margin-top: .65rem;
+      font-size: .95rem;
+      font-weight: 600;
+      color: #0f172a;
+      text-align: center;
+    }
+
+    /* animation: gentle float */
+    @keyframes floaty {
+      0% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(1deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
+
+    /* shine/rotate ring for some techs */
+    .ring {
+      position: absolute;
+      inset: -8px;
+      border-radius: 50%;
+      pointer-events: none;
+      opacity: 0;
+      transform: scale(.9);
+      transition: opacity .35s, transform .6s cubic-bezier(.2,.9,.3,1);
+    }
+
+    /* default paused (will start when in view) */
+    .skill-card.paused .logo-wrap { animation: none; }
+    .skill-card.in-view .logo-wrap { animation: floaty 4.2s ease-in-out infinite; }
+    .skill-card.in-view .ring { opacity: 1; transform: scale(1.05); }
+
+    /* hover interactions */
+    .skill-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 18px 50px rgba(15,23,42,0.12);
+    }
+    .skill-card:hover .logo-wrap {
+      transform: scale(1.12) rotate(-2deg);
+    }
+    .skill-card:hover .ring {
+      transform: scale(1.12) rotate(6deg);
+    }
+
+    /* per-logo colored rings (useful visual identity) */
+    .ring.html { box-shadow: 0 8px 30px rgba(227,76,38,0.16); background: linear-gradient(90deg, rgba(227,76,38,0.12), rgba(255,255,255,0)); border: 2px solid rgba(227,76,38,0.06); }
+    .ring.css  { box-shadow: 0 8px 30px rgba(38,77,228,0.12); background: linear-gradient(90deg, rgba(38,77,228,0.08), rgba(255,255,255,0)); border: 2px solid rgba(38,77,228,0.05); }
+    .ring.js   { box-shadow: 0 8px 30px rgba(241,224,90,0.10); background: linear-gradient(90deg, rgba(241,224,90,0.06), rgba(255,255,255,0)); border: 2px solid rgba(241,224,90,0.06); }
+    .ring.boot { box-shadow: 0 8px 30px rgba(86,61,124,0.10); background: linear-gradient(90deg, rgba(86,61,124,0.06), rgba(255,255,255,0)); border: 2px solid rgba(86,61,124,0.05); }
+    .ring.tail { box-shadow: 0 8px 30px rgba(16,185,129,0.10); background: linear-gradient(90deg, rgba(16,185,129,0.06), rgba(255,255,255,0)); border: 2px solid rgba(16,185,129,0.05); }
+    .ring.react { box-shadow: 0 8px 30px rgba(97,218,251,0.10); background: linear-gradient(90deg, rgba(97,218,251,0.06), rgba(255,255,255,0)); border: 2px solid rgba(97,218,251,0.05); }
+    .ring.vue   { box-shadow: 0 8px 30px rgba(65,184,131,0.10); background: linear-gradient(90deg, rgba(65,184,131,0.06), rgba(255,255,255,0)); border: 2px solid rgba(65,184,131,0.05); }
+    .ring.git   { box-shadow: 0 8px 30px rgba(240,88,24,0.10); background: linear-gradient(90deg, rgba(240,88,24,0.06), rgba(255,255,255,0)); border: 2px solid rgba(240,88,24,0.05); }
+    .ring.github{ box-shadow: 0 8px 30px rgba(51,51,51,0.10); background: linear-gradient(90deg, rgba(51,51,51,0.04), rgba(255,255,255,0)); border: 2px solid rgba(51,51,51,0.05); }
+
+    /* small screens: stack nicely */
+    @media (max-width: 575.98px) {
+      .skill-card { padding: .75rem; min-height: 120px; border-radius: 12px; }
+      .skill-label { font-size: .9rem; }
+    }
+
+  </style>
+</head>
+<body>
+
+<section id="skill-logos" class="container">
+  <h3 class="section-title">My Skills — Large Animated Logos</h3>
+
+  <div class="row g-3 g-md-4 justify-content-center align-items-stretch">
+    <!-- Template for a single tech card:
+         col classes make it responsive:
+         - xs: 2 per row (col-6)
+         - sm: 3 per row (col-sm-4)
+         - md: 4 per row (col-md-3)
+         adjust as needed
+    -->
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring html"></div>
+          <!-- HTML5 SVG from simple-icons CDN -->
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg" alt="HTML5 Logo" />
+        </div>
+        <div class="skill-label">HTML5</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring css"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg" alt="CSS3 Logo" />
+        </div>
+        <div class="skill-label">CSS3</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring js"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript Logo" />
+        </div>
+        <div class="skill-label">JavaScript</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring boot"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg" alt="Bootstrap Logo" />
+        </div>
+        <div class="skill-label">Bootstrap</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring tail"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg" alt="Tailwind CSS Logo" />
+        </div>
+        <div class="skill-label">Tailwind CSS</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring react"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React Logo" />
+        </div>
+        <div class="skill-label">React</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring vue"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vuedotjs.svg" alt="Vue.js Logo" />
+        </div>
+        <div class="skill-label">Vue.js</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring git"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg" alt="Git Logo" />
+        </div>
+        <div class="skill-label">Git</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring github"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub Logo" />
+        </div>
+        <div class="skill-label">GitHub</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring github"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg" alt="GitHub Logo" />
+        </div>
+        <div class="skill-label">Python</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring github"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/c.svg" alt="GitHub Logo" />
+        </div>
+        <div class="skill-label">C</div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 d-flex">
+      <div class="skill-card paused w-100 text-center">
+        <div class="logo-wrap mx-auto position-relative">
+          <div class="ring github"></div>
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/c.svg" alt="GitHub Logo" />
+        </div>
+        <div class="skill-label">C++</div>
+      </div>
+    </div>
+
+    <!-- আপনি চাইলে আরো লোগো যোগ করতে পারেন একই টেমপ্লেট কপি করে -->
+  </div>
+</section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">My Portfolio</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Porsonal Website.</h5>
+              <p class="card-text">A modern responsive website built with Bootstrap and HTML, CSS.</p>
+              <a href="https://mdrakbi.github.io/Bootstrap-website/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic2.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Porsonal Portfolio Site.</h5>
+              <p class="card-text">Dynamic web application integrated with Font-End and Other Using Meathodes.</p>
+              <a href="https://mdrakbi.github.io/Bootstrap-portfolio-website/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic3.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Porsonal Project.</h5>
+              <p class="card-text">Custom Code integrated theme designed for clients.</p>
+              <a href="https://mdrakbi.github.io/My-Portfolio-Site/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic4.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Company Website.</h5>
+              <p class="card-text">Custom WordPress theme designed for clients.</p>
+              <a href="https://dev-mdrakibali.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic5.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce Website.</h5>
+              <p class="card-text">Custom WordPress theme designed for clients.theme designed for clients.</p>
+              <a href="https://dev-rakibalibd.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic6.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Business Website.</h5>
+              <p class="card-text">Custom WordPress theme designed. Theme Development and All function</p>
+              <a href="https://dev-developermdrakib.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic7.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">School Website.</h5>
+              <p class="card-text">Custom WordPress theme designed for clients. Notice and all Other Q solubd</p>
+              <a href="https://dev-rakib202.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic8.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">E-Larning Website.</h5>
+              <p class="card-text">Custom WordPress theme designed for clients. for Student for learning Moment.</p>
+              <a href="https://dev-rakib202.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="pic9.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Mony Send Website.</h5>
+              <p class="card-text">Custom WordPress theme designed for Development and Tools in the Website.</p>
+              <a href="https://dev-developermdrakib.pantheonsite.io/" class="btn btn-primary btn-sm" target="_blank">Live Preview 🔗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="service" class="bg-light p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My service</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🌐 Web Design</h5>
+              <p class="card-text">Designing attractive websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">💻 Web Development</h5>
+              <p class="card-text">Dynamic website development.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🔍 SEO</h5>
+              <p class="card-text">Ranking the website in search engines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">💫 Speed Optimization</h5>
+              <p class="card-text">Increase website speed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">💥 Digital Marketing</h5>
+              <p class="card-text">Marketing products online.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">📩 E-mail Marketing</h5>
+              <p class="card-text">Email the customer about the product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🎬 Video Edting</h5>
+              <p class="card-text">Providing service by editing videos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">📈 UI/UX Designer</h5>
+              <p class="card-text">Creating what a website should look like.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🧲 Graphics Design</h5>
+              <p class="card-text">Designing different templates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <style>
+    /* Section Design */
+    #edu-exp {
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+      padding: 60px 20px;
+    }
+
+    #edu-exp h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #edu-exp h2::after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      margin: 0 auto;
+      padding: 10px 0;
+      max-width: 900px;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #0d6efd;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -2px;
+    }
+
+    .timeline-item {
+      padding: 20px 30px;
+      position: relative;
+      background: inherit;
+      width: 50%;
+    }
+
+    .timeline-item::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -10px;
+      background-color: #0d6efd;
+      border: 3px solid #fff;
+      top: 20px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .timeline-item.left {
+      left: 0;
+    }
+
+    .timeline-item.right {
+      left: 50%;
+    }
+
+    .timeline-item.right::after {
+      left: -10px;
+    }
+
+    .timeline-item .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .timeline-item .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .timeline-item h4 {
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .timeline-item span {
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    @media screen and (max-width: 768px) {
+      .timeline::after {
+        left: 20px;
+      }
+      .timeline-item {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 20px;
+      }
+      .timeline-item.right {
+        left: 0%;
+      }
+      .timeline-item::after {
+        left: 10px;
+      }
+    }
+  </style>
+
+
+<!-- Education & Experience Section -->
+<section id="edu-exp">
+  <div class="container">
+    <h2>Education & Experience</h2>
+    <div class="timeline">
+
+      <!-- Education 1 -->
+      <div class="timeline-item left">
+        <div class="card">
+          <h4>SSC - Science</h4>
+          <span>2019 - 2020</span>
+          <p>Doulkhar High School, Cumilla, Bangladesh</p>
+        </div>
+      </div>
+
+      <!-- Education 2 -->
+      <div class="timeline-item right">
+        <div class="card">
+          <h4>HSC - Science</h4>
+          <span>2020 - 2022</span>
+          <p>Cumilla Govt. College, Cumilla, Bangladesh</p>
+        </div>
+      </div>
+
+      <!-- Experience 1 -->
+      <div class="timeline-item left">
+        <div class="card">
+          <h4>Bachelor Of Computer Science and Engineering.</h4>
+          <span>2024 - 2027</span>
+          <p>Crown Institute(CIBT), Dhaka, Bangladesh</p>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="timeline-item right">
+        <div class="card">
+          <h4>Freelance Web Developer</h4>
+          <span>2025 - Present</span>
+          <p>Fiverr & Upwork Projects</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="F Ask Q" class="bg-light p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">F Ask Q</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        What kind of services can I get from here?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">You can design any type of wordpress website using elementor pro and crocoblock , duplicate website, redesign website, elementor website, elementor pro website, wordpress website, replicate website Using elementor pro page builder. View My all Services.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        What experience do you WordPress developer?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">I have 5 years of experience working with WordPress, and I am proficient in various aspects of the platform. I am also constantly learning and updating my skills to stay ahead of the curve.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Why should you trust me?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">I provide 100% customer satisfaction, I am an wordpress and elementor pro expert, I create Clone Websites in a Pixel Perfect way with my maximum talent using WordPress and elementor pro. I also specialize in creating Elementor Websites and Elementor Pro websites.</div>
+    </div>
+  </div>
+</div>
+      </div>
+  </section>
+
+
+
+<style>
+    /* Section Styling */
+    #projects {
+      background: #f8fafc;
+      padding: 80px 20px;
+    }
+
+    #projects h2 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #projects h2::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Project Card Styling */
+    .project-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .project-card h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #0f172a;
+    }
+
+    .project-card p {
+      color: #475569;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    .project-card .btn {
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-weight: 500;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .project-card .btn:hover {
+      transform: translateY(-2px);
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div class="row g-4">
+
+      <!-- Project 1: Weather App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic10.png" alt="Weather App">
+          <h5>Weather App</h5>
+          <p>A responsive weather application to check the forecast of any city in real-time.</p>
+          <a href="https://mdrakbi.github.io/Weather-Apps/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+
+      <!-- Project 2: Quiz App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic11.png" alt="Quiz App">
+          <h5>Quiz App</h5>
+          <p>An interactive quiz application with multiple categories and instant score calculation.</p>
+          <a href="https://mdrakbi.github.io/Rakib-Quiz-App.-/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+
+      <!-- Project 3: To-Do App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic12.png" alt="To-Do App">
+          <h5>To-Do App</h5>
+          <p>A simple and efficient to-do list app to manage your daily tasks with ease.</p>
+          <a href="https://mdrakbi.github.io/NotePad-Apps/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+      <!-- Project 3: Calculater App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic13.png" alt="To-Do App">
+          <h5>Digital-Clock</h5>
+          <p>A simple and efficient to-do list app to manage your daily tasks with ease.</p>
+          <a href="https://mdrakbi.github.io/Digital-Clock/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+      <!-- Project 3: Digital-Time App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic14.png" alt="To-Do App">
+          <h5>Calculator-Project</h5>
+          <p>A simple and efficient to-do list app to manage your daily tasks with ease.</p>
+          <a href="https://mdrakbi.github.io/Calculator-Project/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+      <!-- Project 3: To-Do App -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <img src="pic15.png" alt="To-Do App">
+          <h5>Image-Uploader</h5>
+          <p>A simple and efficient to-do list app to manage your daily tasks with ease.</p>
+          <a href="https://mdrakbi.github.io/Image-Uploader/" target="_blank" class="btn btn-primary">Live Demo</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <style>
+    /* Section Styling */
+    #testimonials {
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      padding: 60px 20px;
+    }
+
+    #testimonials h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #testimonials h2::after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Testimonial Card */
+    .testimonial-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .testimonial-text {
+      font-size: 16px;
+      font-style: italic;
+      color: #475569;
+      margin-bottom: 20px;
+    }
+
+    .client-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .client-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0d6efd;
+    }
+
+    .client-info h5 {
+      margin: 0;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .client-info span {
+      font-size: 14px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="row g-4">
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Amazing work! The website Rakib built was modern, responsive, and exceeded my expectations."
+          </p>
+          <div class="client-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ9INB0kRfJcy-EVpFR6yaMmtxPDIcUuwog&s" alt="Client 1">
+            <div>
+              <h5>John Doe</h5>
+              <span>CEO, Tech Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Professional and reliable developer. Always delivers work on time with great quality."
+          </p>
+          <div class="client-info">
+            <img src="pic16.jpg" alt="Client 2">
+            <div>
+              <h5>Sarah Smith</h5>
+              <span>Freelance Client</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Rakib is a very talented developer. He customized my WordPress site perfectly."
+          </p>
+          <div class="client-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKWuTiw0w8qX1WwjdHy4bEGUDG9jEBIhk6Jg&s" alt="Client 3">
+            <div>
+              <h5>Michael Lee</h5>
+              <span>Business Owner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <style>
+    /* Section Styling */
+    #achievements {
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+      padding: 60px 20px;
+    }
+
+    #achievements h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #achievements h2::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Card Design */
+    .achievement-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .achievement-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .achievement-card img {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 15px;
+      object-fit: contain;
+    }
+
+    .achievement-card h5 {
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #0f172a;
+    }
+
+    .achievement-card span {
+      font-size: 14px;
+      color: #64748b;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .achievement-card p {
+      font-size: 15px;
+      color: #475569;
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Achievements Section -->
+<section id="achievements">
+  <div class="container">
+    <h2>Achievements & Certificates</h2>
+    <div class="row g-4">
+
+      <!-- Achievement 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <img src="pic17.png" alt="Certificate 1">
+          <h5>Web Development Certificate</h5>
+          <span>Udemy - 2023</span>
+          <p>Successfully completed a professional course on Full Stack Web Development.</p>
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <img src="pic17.png" alt="Certificate 2">
+          <h5>JavaScript Mastery</h5>
+          <span>Coursera - 2022</span>
+          <p>Advanced JavaScript programming skills with modern ES6+ features.</p>
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <img src="pic17.png" alt="Certificate 3">
+          <h5>WordPress Web Design</h5>
+          <span>freeCodeCamp - 2021</span>
+          <p>Learned best practices in building mobile-friendly and responsive websites.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <style>
+    /* Section Styling */
+    #blog {
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+      padding: 60px 20px;
+    }
+
+    #blog h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #blog h2::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Blog Card */
+    .blog-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .blog-content h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #0f172a;
+    }
+
+    .blog-content p {
+      font-size: 15px;
+      color: #475569;
+      margin-bottom: 15px;
+    }
+
+    .read-more {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      color: #0d6efd;
+      transition: color 0.3s ease;
+    }
+
+    .read-more:hover {
+      color: #0a58ca;
+    }
+
+    .blog-meta {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Blog Section -->
+<section id="blog">
+  <div class="container">
+    <h2>Latest Blog</h2>
+    <div class="row g-4">
+
+      <!-- Blog 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-card">
+          <img src="pic19.jfif" alt="Blog 1">
+          <div class="blog-content">
+            <div class="blog-meta">January 10, 2025 | Web Development</div>
+            <h5>Top 5 Tips to Make Your Website Responsive</h5>
+            <p>Learn how to make your website mobile-friendly using Bootstrap and modern CSS techniques.</p>
+            <a href="https://webflow.com/blog/responsive-web-design" class="read-more" target="_blank">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-card">
+          <img src="pic18.jfif" alt="Blog 2">
+          <div class="blog-content">
+            <div class="blog-meta">February 2, 2025 | JavaScript</div>
+            <h5>Understanding ES6 Features in Depth</h5>
+            <p>A complete guide on modern JavaScript (ES6+) and how to use them in real projects.</p>
+            <a href="https://medium.com/@shubham3480/features-introduced-in-es6-e8b10bd93150" class="read-more" target="_blank">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-card">
+          <img src="pic20.jfif" alt="Blog 3">
+          <div class="blog-content">
+            <div class="blog-meta">March 5, 2025 | Career</div>
+            <h5>How to Prepare for Freelancing as a Web Developer</h5>
+            <p>Step-by-step tips to start freelancing, build a strong portfolio, and attract clients.</p>
+            <a href="https://medium.com/@rishabhdubeyyy/how-i-started-earning-as-a-freelance-web-developer-how-you-can-too-58986b96ba49" class="read-more" target="_blank">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  
+  <style>
+    /* Section Styling */
+    #contact {
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      padding: 80px 20px;
+    }
+
+    #contact h2 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 50px;
+      color: #1e293b;
+      position: relative;
+    }
+
+    #contact h2::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Contact Card Styling */
+    .contact-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+    }
+
+    /* Form Styling */
+    .contact-form .form-control {
+      border-radius: 8px;
+      padding: 12px;
+      border: 1px solid #ced4da;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-form .form-control:focus {
+      border-color: #0d6efd;
+      box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+    }
+
+    .contact-form button {
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background: #0056b3;
+      transform: translateY(-2px);
+    }
+
+    /* Info Section */
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info i {
+      font-size: 20px;
+      color: #0d6efd;
+      margin-right: 15px;
+    }
+
+    .contact-info p {
+      margin: 0;
+      color: #475569;
+      font-size: 16px;
+    }
+  </style>
+  <!-- Optional: Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row g-4">
+
+      <!-- Contact Info -->
+       <div class="col-lg-5">
+        <div style="background:#fff; padding:30px; border-radius:15px; box-shadow:0 6px 20px rgba(0,0,0,0.08);">
+          <h5>Get in Touch</h5>
+          <p>Fill up the form or reach me via email / phone.</p>
+          <p><strong>Email:</strong> mdrakibmozumder732@gmail.com</p>
+          <p><strong>Phone:</strong> +880 1842 585146</p>
+          <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-card">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Find Me on Map</h2>
+  <!-- Responsive Map -->
+  <div class="ratio ratio-16x9 shadow rounded">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27558.77599973905!2d90.43136183027009!3d23.829681012875287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6422bc83d21%3A0x3a1bc96ce9f8ad8b!2sKhilkhet%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1757187058787!5m2!1sen!2sbd" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+
+  <!-- Responsive Footer -->
+  <style>
+    /* Footer Styling */
+    footer {
+      background: linear-gradient(135deg, #0d6efd, #00d4ff);
+      color: #fff;
+      padding: 60px 20px 20px 20px;
+      position: relative;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer p {
+      text-align: justify;
+    }
+
+
+    footer a:hover {
+      color: #ffd700;
+    }
+
+    footer .footer-logo {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    footer .footer-links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer .footer-links ul li {
+      margin-bottom: 10px;
+    }
+
+    footer .social-icons a {
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 18px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    footer .social-icons a:hover {
+      color: #ffd700;
+      transform: translateY(-3px);
+    }
+    
+    footer .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 16px;
+      color: #e0e0e0;
+      font-weight: bold;
+    }
+
+    /* Responsive */
+    @media (max-width: 767px) {
+      footer .row {
+        text-align: center;
+      }
+      footer .social-icons a {
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & Description -->
+      <div class="col-md-4">
+        <div class="footer-logo">Rakib Hossain</div>
+        <p>Building modern, responsive and professional websites. Let's connect! and Modern web Technologies. I can Create Blog sites, Portfolio sites, E-commerce sites, Business Portfolios, All kinds. I Create Responsive and User-Friendly Websites with clean code and Creative Designs.
+
+</p>
+      
+      </div>
+
+      <!-- Quick Links -->
+      <div id="quick" class="col-md-4 footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <h5>Contact Me</h5>
+        <p>Email: mdrakibmozumder732@gmail.com</p>
+        <p>Phone: +880 1842 585146</p>
+        <p>Location: Dhaka, Bangladesh</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center border-top border-warning pt-4 mt-4">
+      Portfolio Site &copy;  2025 Developer <a href="https://dev-developermdrakib.pantheonsite.io/" target="_blank">Rakib_Hossain</a> | All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<style>
+    /* Button Style */
+    #backToTop {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, #0d6efd, #00d4ff);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      font-size: 24px;
+      cursor: pointer;
+      display: none; /* initially hidden */
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      z-index: 9999;
+    }
+
+    #backToTop:hover {
+      transform: scale(1.1);
+      background: linear-gradient(135deg, #0056b3, #00a1ff);
+    }
+  </style>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Go to top">&#8679;</button>
+
+
+
+
+
+  <style>
+    /* Hide default cursor */
+    body {
+      cursor: none;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    /* Custom Cursor */
+    .cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 25px;
+      height: 25px;
+      background-color: #e506cf;
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: transform 0.1s ease, background-color 0.2s ease;
+      z-index: 9999;
+    }
+
+    /* Hover effect on links/buttons */
+    a:hover ~ .cursor,
+    button:hover ~ .cursor {
+      transform: translate(-50%, -50%) scale(2);
+      background-color: #00d4ff;
+    }
+  </style>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+
+
+<script>
+  (function () {
+    const cards = document.querySelectorAll('.skill-card');
+
+    // If IntersectionObserver unsupported, activate all animations
+    if (!('IntersectionObserver' in window)) {
+      cards.forEach(c => c.classList.add('in-view'));
+      return;
+    }
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const el = entry.target;
+        if (entry.isIntersecting) {
+          el.classList.add('in-view');
+          el.classList.remove('paused');
+          // Optionally unobserve to keep performance
+          io.unobserve(el);
+        }
+      });
+    }, {
+      threshold: 0.35
+    });
+
+    cards.forEach(c => io.observe(c));
+  })();
+  const backToTopBtn = document.getElementById('backToTop');
+
+    // Show button when scrolled down 300px
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopBtn.style.display = "flex";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
+
+    // Scroll smoothly to top when clicked
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    });
+</script>
+
+
+</body>
+</html>
